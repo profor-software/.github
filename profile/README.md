@@ -4,7 +4,7 @@
 ##### Eigene Tabellenfeld IDs starten mit 1/ Extension mit dem ID Bereich der App
 ##### Variablen heißen wie der Record zusammengeschrieben
 ##### Eventbennenung ändern wir nicht
-##### Appversion= BCVersion.0.0.0/ Bei Entwicklungen BCVersion.0.0.1/ Beim Live Start BCVersion.1.0.0
+##### Appversion= Bei Entwicklungen (BCVersion.0.0.1)/ Beim Live Start (BCVersion.1.0.0)
 
 ## Profor Software
 
