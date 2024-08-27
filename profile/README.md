@@ -18,5 +18,5 @@
 
 ## [RMS Repos](https://github.com/orgs/profor-software/repositories?q=RMS&type=all&language=&sort=) 
 
-## [Dependensies](https://github.com/orgs/profor-software/repositories?q=Dependency&type=all&language=&sort=) 
+## [Dependencies](https://github.com/orgs/profor-software/repositories?q=Dependency&type=all&language=&sort=) 
 
