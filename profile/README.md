@@ -1,12 +1,4 @@
 ## Coding Guidelines
-##### Namespace in eigenen Apps profor.dynamicsfood.'Name der App (zusammen)' / Bei Kunden profor.Customization.'Name des Kunden (zusammen)'
-##### Name in Objekten werden jetzt PSG_ + Objektname zusammen/ Files ohne den Unterstrich
-##### Eigene Tabellenfeld IDs starten mit 1/ Extension mit dem ID Bereich der App
-##### Variablen heißen wie der Record zusammengeschrieben
-##### Eventbennenung ändern wir nicht
-##### Appversion= Bei Entwicklungen (BCVersion.0.0.1)/ Beim Live Start (BCVersion.1.0.0)
-
-## Coding Guidelines
 ##### Namespaces:
 ###### Eigene Apps: Nutze einen Namespace, der aus "profor.dynamicsfood." und dem zusammengeschriebenen Namen deiner App besteht (z.B. profor.dynamicsfood.MeineNeueApp).
 ###### Kundenprojekte: Verwende "profor.Customization." gefolgt vom zusammengeschriebenen Kundennamen (z.B. profor.Customization.MustermannAG).
