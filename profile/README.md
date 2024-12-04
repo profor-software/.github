@@ -1,7 +1,7 @@
 ## Coding Guidelines
 ##### Namespaces:
 ###### Eigene Apps: Nutze einen Namespace, der aus "profor.dynamicsfood." und dem zusammengeschriebenen Namen deiner App besteht (z.B. profor.dynamicsfood.MeineNeueApp).
-###### Kundenprojekte: Verwende "profor.Customization." gefolgt vom zusammengeschriebenen Kundennamen (z.B. profor.Customization.MustermannAG).
+###### Kundenprojekte: Verwende "PSG.Customization." gefolgt vom zusammengeschriebenen Kundennamen (z.B. PSG.Customization.MustermannAG).
 ##### Objekte:
 ###### Füge allen Objektnamen das Präfix "PSG_" hinzu (z.B. PSG_Kunde, PSG_Bestellung).
 ###### In Dateinamen entfällt der Unterstrich.
