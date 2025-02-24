@@ -1,6 +1,6 @@
 ## Coding Guidelines
 ##### Namespaces:
-###### Eigene Apps: Nutze einen Namespace, der aus "PSG.dynamicsfood." und dem zusammengeschriebenen Namen deiner App besteht (z.B. PSG.dynamicsfood.MeineNeueApp).
+###### Eigene Apps: Nutze einen Namespace, der aus "PSG.App." und dem zusammengeschriebenen Namen deiner App besteht (z.B. PSG.App.MeineNeueApp).
 ###### Kundenprojekte: Verwende "PSG.Customization." gefolgt vom zusammengeschriebenen Kundennamen (z.B. PSG.Customization.MustermannAG).
 ##### Objekte:
 ###### Füge allen Objektnamen das Präfix "PSG_" hinzu (z.B. PSG_Kunde, PSG_Bestellung).
