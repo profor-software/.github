@@ -13,7 +13,7 @@
 ##### Events:
 ###### Die bestehenden Eventbenennungen bleiben unverändert.
 ##### Versionsnummerierung
-##### Platform <major>.<minor>.<build>.<revision>
+##### Platform &lt;major&gt;.&lt;minor&gt;.&lt;build&gt;.&lt;revision&gt;
 ##### Major = Version von BC
 ##### Minor = Interne Versionierung
 ##### Build = Automatische Nummer beim Builden der App aus GitHub
