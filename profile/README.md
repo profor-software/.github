@@ -13,6 +13,11 @@
 ##### Events:
 ###### Die bestehenden Eventbenennungen bleiben unverändert.
 ##### Versionsnummerierung
+##### Platform <major>.<minor>.<build>.<revision>
+##### Major = Version von BC
+##### Minor = Interne Versionierung
+##### Build = Automatische Nummer beim Builden der App aus GitHub
+##### Revision = Hofixes und kleiner Änderungen
 ###### Entwicklung: Verwende das Format "BCVersion.0.0.1".
 ###### Produktivstart: Ändere auf "BCVersion.1.0.0".
 
