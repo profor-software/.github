@@ -10,7 +10,7 @@
 ###### Extension-Tabellenfelder: Nutze den ID-Bereich der jeweiligen App.
 ###### Tabellenfelder heißen (z.B. PSG_OrderNo). Das Feld wird mit PSG_'Der Name des Feldes zusammen' geschrieben.
 ##### Seitenfelder:
-###### Das Feld wird auf der Page wieder mit anführungzeichen (z.B. "Order Quantity"; Rec.PSG_OrderQuantity) geschrieben.
+###### Das Feld wird auf der Page wieder mit Anführungzeichen geschrieben. (z.B. "Order Quantity"; Rec.PSG_OrderQuantity) 
 ##### Variablen:
 ###### Benenne Variablen so, dass sie dem entsprechenden Record entsprechen (z.B. Kunde, Bestellung).
 ##### Events:
