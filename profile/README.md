@@ -9,6 +9,7 @@
 ###### Eigene Tabellenfelder: Beginne die ID mit 1.
 ###### Extension-Tabellenfelder: Nutze den ID-Bereich der jeweiligen App.
 ###### Tabellenfelder heißen (z.B. PSG_OrderNo). Das Feld wird mit PSG_'Der Name des Feldes zusammen' geschrieben.
+###### Der ID-Bereich von 50900 bis 50999 ist für Kunden reserviert, die eigene Entwicklungen vornehmen möchten. In diesem Bereich werden individuelle Anpassungen ermöglicht.
 ##### Seitenfelder:
 ###### Das Feld wird auf der Page wieder mit Anführungzeichen geschrieben. (z.B. "Order Quantity"; Rec.PSG_OrderQuantity) 
 ##### Variablen:
