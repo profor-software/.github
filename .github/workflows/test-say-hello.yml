@@ -1,0 +1,11 @@
+name: Say Hello
+on:
+  schedule: 
+    - cron: '*/10 14-23 * * *' # Runs every day at midnight
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello, World!"
