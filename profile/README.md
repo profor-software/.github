@@ -4,7 +4,7 @@ Willkommen bei profor software
 # Guidelines
 
 - [Coding Guidelines](./CodingGuideLines.md)
-- [Code Review Regeln](https://github.com/profor-software/.github/blob/main/CODEREVIEW.md) 
+- [Code Review Regeln](./CODEREVIEW.md) 
 
 # Repos Shortcuts
 
