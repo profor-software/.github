@@ -1,33 +1,12 @@
-## Coding Guidelines
-##### Namespaces:
-###### Eigene Apps: Nutze einen Namespace, der aus "PSG.App." und dem zusammengeschriebenen Namen deiner App besteht (z.B. PSG.App.MeineNeueApp).
-###### Kundenprojekte: Verwende "PSG.Customization." gefolgt vom zusammengeschriebenen Kundennamen (z.B. PSG.Customization.MustermannAG).
-##### Objekte:
-###### Füge allen Objektnamen das Präfix "PSG_" hinzu (z.B. PSG_Kunde, PSG_Bestellung).
-###### In Dateinamen entfällt der Unterstrich.
-##### Tabellenfelder:
-###### Eigene Tabellenfelder: Beginne die ID mit 1.
-###### Extension-Tabellenfelder: Nutze den ID-Bereich der jeweiligen App.
-###### Tabellenfelder heißen (z.B. PSG_OrderNo). Das Feld wird mit PSG_'Der Name des Feldes zusammen' geschrieben.
-###### Der ID-Bereich von 50900 bis 50999 ist für Kunden reserviert, die eigene Entwicklungen vornehmen möchten. In diesem Bereich werden individuelle Anpassungen ermöglicht.
-##### Seitenfelder:
-###### Das Feld wird auf der Page wieder mit Anführungzeichen geschrieben. (z.B. "Order Quantity"; Rec.PSG_OrderQuantity) 
-##### Variablen:
-###### Benenne Variablen so, dass sie dem entsprechenden Record entsprechen (z.B. Kunde, Bestellung).
-##### Events:
-###### Die bestehenden Eventbenennungen bleiben unverändert.
-##### Versionsnummerierung
-##### Platform &lt;major&gt;.&lt;minor&gt;.&lt;build&gt;.&lt;revision&gt;
-##### Major = Version von BC
-##### Minor = Interne Versionierung
-##### Build = Automatische Nummer beim Builden der App aus GitHub
-##### Revision = Hofixes und kleiner Änderungen
-###### Entwicklung: Verwende das Format "BCVersion.0.0.1".
-###### Produktivstart: Ändere auf "BCVersion.1.0.0".
+Willkommen bei profor software
+==============================
 
-###### [Code Review](https://github.com/profor-software/.github/blob/main/CODEREVIEW.md) 
+# Guidelines
 
-## Profor Software
+- [Coding Guidelines](./CodingGuideLines.md)
+- [Code Review Regeln](https://github.com/profor-software/.github/blob/main/CODEREVIEW.md) 
+
+# Repos Shortcuts
 
 ## [Customer Repos](https://github.com/orgs/profor-software/repositories?q=Customer&type=all&language=&sort=) 
 
