@@ -6,6 +6,11 @@ Willkommen bei profor software
 - [Coding Guidelines](./CodingGuideLines.md)
 - [Code Review Regeln](./CODEREVIEW.md) 
 
+# Github
+
+- [AL-GO Workflows Zusammenfassung](./AL-GO_Summary.md)
+- [AL-GO Workflows Zusammenfassung (technisch)](./AL-GO_Summary_technical.md)
+
 # Repos Shortcuts
 
 - [Customer Repos](https://github.com/orgs/profor-software/repositories?q=Customer&type=all&language=&sort=) 
