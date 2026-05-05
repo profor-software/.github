@@ -40,7 +40,7 @@ Bei Felder in einer **Table-Extension**, beginnt die Nummerierung bei **Start-ID
 
 ## Reservierter ID-Bereich
 
-> Der ID-Bereich von 50900 bis 50999 ist für Kunden reserviert, die eigene Entwicklungen vornehmen möchten. In diesem Bereich werden individuelle Anpassungen ermöglicht.
+> Der ID-Bereich von 55000 bis 55999 ist für Kunden reserviert, die eigene Entwicklungen vornehmen möchten. In diesem Bereich werden individuelle Anpassungen ermöglicht.
 
 
 ## Seiten-Felder
@@ -157,12 +157,12 @@ Eine Versionsnummer besteht aus den folgenden Bestandteilen:
 
 &lt;`Major`&gt;.&lt;`Minor`&gt;.&lt;`Build`&gt;.&lt;`Revision`&gt;
 
-| Versionsteil | Beschreibung                                                                                  |
-| ------------ | --------------------------------------------------------------------------------------------- |
-| Major        | Version von BC                                                                                |
-| Minor        | Interne Versionierung (wird erhöht, wenn die App ins PROD-System/App-Source gepublished wird) |
-| Build        | Automatische Nummer beim Builden der App aus GitHub                                           |
-| Revision     | Hofixes und kleiner Änderungen                                                                |
+| Versionsteil | Beschreibung                                                                                    |
+| ------------ | ----------------------------------------------------------------------------------------------- |
+| Major        | Version von BC. Wird nur erhöht, wenn für die App für eine neue BC-Version bereitgestellt wird. |
+| Minor        | Interne Versionierung (wird erhöht, wenn die App ins PROD-System/App-Source gepublished wird)   |
+| Build        | Automatische Nummer beim Builden der App aus GitHub.                                            |
+| Revision     | Hofixes und kleiner Änderungen                                                                  |
 
 **Entwicklung**: Verwende das Format "BC-Version.0.0.1". <br>
 **Produktivstart**: Ändere auf "BCVersion.1.0.0".
