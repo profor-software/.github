@@ -1,0 +1,32 @@
+# round-robin-reviewer.yml
+#
+# Diese Datei wird vom Rollout-Skript (Setup-RoundRobinReviewer.ps1) in jedes
+# Ziel-Repo unter .github/workflows/round-robin-reviewer.yml kopiert.
+#
+# Die Platzhalter profor-software und profor-software/profor-company werden vom Rollout-Skript automatisch
+# ersetzt (siehe Parameter -Org / -CentralRepo). Nicht manuell in Ziel-Repos
+# editieren - Aenderungen bitte an dieser Vorlage vornehmen und neu ausrollen.
+
+name: Round Robin Reviewer
+
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  assign-reviewer:
+    # Nicht auf PRs gegen main auslösen (main läuft ausserhalb des Round-Robin-
+    # Prozesses), und nicht auf Draft-PRs, solange sie nicht "ready for review" sind
+    if: >
+      github.event.pull_request.base.ref != 'main' &&
+      github.event.pull_request.draft == false
+    uses: profor-software/profor-company/.github/workflows/assign-reviewer.yml@main
+    with:
+      excluded_users: ${{ vars.ROUND_ROBIN_EXCLUDED_USERS }}
+      reviewer_count: "1"
+    secrets: inherit
+
